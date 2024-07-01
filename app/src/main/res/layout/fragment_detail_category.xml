@@ -1,0 +1,60 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".DetailCategoryFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="#2196F3"
+        app:circularflow_defaultRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="306sp"
+        android:layout_height="53sp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="24sp"
+        android:text="Tentang Aplikasi"
+        android:textColor="@color/white"
+
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="332sp"
+        android:layout_height="74sp"
+        android:layout_marginStart="28sp"
+        android:layout_marginTop="96sp"
+        android:text="Sumber Dataset:\n\nhttps://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification"
+        android:textColor="#2D2E30"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="355sp"
+        android:layout_height="442sp"
+        android:layout_marginStart="28sp"
+        android:layout_marginTop="180sp"
+        android:text="Kumpulan data ini dapat digunakan untuk membuat model pembelajaran mesin yang memprediksi kisaran harga ponsel berdasarkan fitur-fitur seperti RAM, Memori Internal, dan lainnya.\n\nHal ini berguna bagi pengguna dalam menentukan strategi harga yang tepat untuk ponsel-ponsel yang mereka produksi, membantu mereka bersaing secara efektif di pasar ponsel yang kompetitif."
+        android:textColor="#2D2E30"
+        android:textSize="14sp"
+        android:textStyle=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
